@@ -1,25 +1,25 @@
-.navbar-container{
+.navbar-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: .3rem 2rem;
+  margin: 1rem 2rem;
 }
 
-.nav-lists{
+.nav-lists {
   display: flex;
   gap: 3rem;
   list-style: none;
 }
 
-.nav-list a{
+.nav-list a {
   text-decoration: none;
   color: var(--color-black);
   font-size: 2rem;
   text-transform: uppercase;
-  transition: all ease .5s;
+  transition: all ease 0.5s;
 }
 
-.nav-list a:hover{
+.nav-list a:hover {
   color: var(--color-primary);
 }
 

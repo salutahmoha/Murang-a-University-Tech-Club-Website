@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-html{
+html {
   font-size: 62.5%;
 }
 :root {
@@ -20,6 +20,6 @@ body {
   font-family: "Rubik", sans-serif;
   background-color: var(--color-tertiary);
   color: var(--color-black);
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
   margin-bottom: 3rem;
 }

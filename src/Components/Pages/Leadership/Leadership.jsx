@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function Leadership() {
-  return (
-    <div>Leadership</div>
-  )
+  return <div>Leadership</div>;
 }
 
-export default Leadership
+export default Leadership;

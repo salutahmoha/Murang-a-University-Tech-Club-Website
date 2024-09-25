@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function Tracks() {
-  return (
-    <div>Tracks</div>
-  )
+  return <div>Tracks</div>;
 }
 
-export default Tracks
+export default Tracks;
