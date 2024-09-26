@@ -31,7 +31,7 @@
   margin: 0 3rem;
 }
 
-/* @media screen and (max-width: 56.25rem){
+@media screen and (max-width: 56.25rem){
     .home-text h2{
         font-size: 4rem;
     }
@@ -44,7 +44,7 @@
     .home-text h2{
         font-size: 3rem;
     }
-} */
+}
 /* End of Hero-section Styling */
 /* about-section */
 #about {
