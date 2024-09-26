@@ -92,6 +92,29 @@ h4 {
         height: 45rem;
       }
 }
+
+@media screen and (max-width: 47.5rem){
+    #about .row{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .about-img {
+        width: 90%;
+        height: 45rem;
+      }
+    .about-img img {
+        width: 100%;
+        height: 45rem;
+      }
+      .about-text {
+        width: 90%;
+      }
+      
+      .about-text p,
+      h4 {
+        width: 100%;
+      }
+}
 /* End of About Stylings */
 /* Testimonials section stylings */
 

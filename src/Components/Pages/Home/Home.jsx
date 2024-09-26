@@ -35,8 +35,7 @@ function Home() {
               voluptates? Necessitatibus perferendis tempora, deleniti
               architecto illum nam saepe. Distinctio minus ex est dignissimos
               laboriosam eum exercitationem, quaerat ab. Alias eius cum, et
-              nesciunt corporis deserunt excepturi similique provident fuga
-              commodi.
+              
             </p>
             <h4>MUTC VALUES</h4>
             <p>
@@ -45,7 +44,7 @@ function Home() {
               vel nemo tenetur facilis eum minus soluta odit rem dicta sapiente
               nam, mollitia debitis at. Consectetur aperiam, assumenda
               distinctio mollitia aut delectus illum voluptate culpa quas
-              eveniet id modi! Laboriosam adipisci sequi dolor.
+              
             </p>
             <h4>MUTC OBJECTIVES</h4>
             <p>
@@ -53,8 +52,7 @@ function Home() {
               Reprehenderit et facere sint cum fugiat praesentium. Labore maxime
               quaerat nulla impedit. Nisi labore sunt enim inventore eveniet
               ducimus assumenda fugiat maiores, odit ullam, possimus, quae ipsa
-              magni in sapiente sed dolore officia eius reprehenderit. Pariatur
-              atque est, inventore officia voluptatibus id.
+              magni in sapiente sed dolore officia eius reprehenderit. 
             </p>
           </div>
         </div>
