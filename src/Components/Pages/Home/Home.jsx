@@ -1,10 +1,9 @@
 import React from "react";
 import "./Home.css";
+import Carousel from "react-elastic-carousel";
+import testimonials from "./data";
 
 import about from "../../../Assets/hero-1.jpeg";
-import lucy from "../../../Assets/test3.jpeg";
-import test1 from "../../../Assets/test3.jpeg";
-import test2 from "../../../Assets/test2.jpeg";
 
 function Home() {
   return (
@@ -26,53 +25,63 @@ function Home() {
         <h2>About Us</h2>
         <div className="row">
           <div className="about-img">
-            <img src={about} alt="" />
+            <img src={about} alt="About Us" />
           </div>
-
           <div className="about-text">
             <h4>MUTC MISSION</h4>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
-              iure sequi quam neque minus provident consequatur eveniet hic
-              numquam dolorem quia veniam, unde saepe in. Rerum aperiam earum,
-              impedit repellendus beatae voluptates harum ad consequatur! Ea
-              facilis vel deleniti assumenda accusamus quo fugiat veritatis
-              provident. Voluptatem itaque similique quis minus.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+              ea eaque non sed quos! Deleniti voluptate beatae facere quas
+              voluptates? Necessitatibus perferendis tempora, deleniti
+              architecto illum nam saepe. Distinctio minus ex est dignissimos
+              laboriosam eum exercitationem, quaerat ab. Alias eius cum, et
+              nesciunt corporis deserunt excepturi similique provident fuga
+              commodi.
             </p>
             <h4>MUTC VALUES</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              eveniet, deleniti facilis dignissimos quos saepe quas laudantium
-              porro fugiat hic aliquid veritatis necessitatibus animi tenetur
-              officia exercitationem aperiam, distinctio iste cum blanditiis
-              velit, quis maiores eaque sit? Distinctio sint sed sequi, ratione
-              consequuntur aliquam quod autem ex quis similique eaque.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+              exercitationem nihil quasi corporis temporibus modi amet aperiam
+              vel nemo tenetur facilis eum minus soluta odit rem dicta sapiente
+              nam, mollitia debitis at. Consectetur aperiam, assumenda
+              distinctio mollitia aut delectus illum voluptate culpa quas
+              eveniet id modi! Laboriosam adipisci sequi dolor.
             </p>
             <h4>MUTC OBJECTIVES</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed illo
-              asperiores minus sit fugiat sint quasi natus distinctio, aliquam
-              obcaecati voluptatem labore itaque quidem consequuntur modi saepe
-              eum atque error dicta ducimus? Possimus reiciendis dolorum aperiam
-              fugit nostrum. Nobis corrupti totam ducimus officiis similique
-              illo dolorem hic voluptatem itaque ipsum?
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Reprehenderit et facere sint cum fugiat praesentium. Labore maxime
+              quaerat nulla impedit. Nisi labore sunt enim inventore eveniet
+              ducimus assumenda fugiat maiores, odit ullam, possimus, quae ipsa
+              magni in sapiente sed dolore officia eius reprehenderit. Pariatur
+              atque est, inventore officia voluptatibus id.
             </p>
           </div>
         </div>
       </div>
 
+      {/* Testimonials Section */}
       <div className="testimonials-container" id="testimonials">
-        <div class="carousel-item active">
-          <div className="individual-info">
-          <img src={lucy} class="d-block w-100" alt="..." />
-          <h5>Lucy Wambui</h5>
-          </div>
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Computer Science Student, Alumni</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nam quae, 
-              accusamus voluptatum autem atque iste adipisci debitis sunt quidem?</p>
-          </div>
-        </div>
+        <h2>Testimonials</h2>
+        <Carousel
+          className="carousel"
+          enableAutoPlay={true}
+          itemsToShow={1}
+          autoPlaySpeed={5000}
+        >
+          {testimonials.map((testimonial, index) => (
+            <div key={index} className="testimonial-item">
+              <div className="individual-info">
+                <img src={testimonial.image} alt={testimonial.name} />
+                <h5>{testimonial.name}</h5>
+              </div>
+              <div className="testimonial-caption">
+                <h4>{testimonial.title}</h4>
+                <p>{testimonial.text}</p>
+              </div>
+            </div>
+          ))}
+        </Carousel>
       </div>
     </section>
   );

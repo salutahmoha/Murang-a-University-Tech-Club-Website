@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Navbar from "./Components/Navbar/navbar";
+import Carousel from "react-elastic-carousel";
 
 import Home from "./Components/Pages/Home/Home";
 import Leadership from "./Components/Pages/Leadership/Leadership";
