@@ -19,6 +19,7 @@
   border: 1px solid var(--color-black);
   border-radius: 1rem;
   overflow: hidden;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .leader-info img {
@@ -29,7 +30,9 @@
 .leader-details {
   padding: 1rem 0.5rem 0.2rem 1rem;
 }
-
+.leader-details h4{
+   color: var(--color-primary);
+}
 .leader-details h5 {
   padding: 0.5rem 0;
   font-size: 1.6rem;
@@ -48,4 +51,25 @@
     align-items: center;
     gap: 1rem;
     font-size: 1.7rem;
+    color: var(--color-blue);
+}
+
+.leader-socialmedia-handles h6 svg{
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.leader-socialmedia-handles h6 svg:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 33.75rem){
+    .leader-info {
+        width: 40rem;
+    }
+}
+
+@media screen and (max-width: 26.25rem){
+    .leader-info {
+        width: 35rem;
+    }
 }
