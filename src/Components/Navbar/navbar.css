@@ -23,6 +23,16 @@
   color: var(--color-primary);
 }
 
-/* .nav-list a.active{
-  color: red;
-} */
+
+@media screen and (max-width: 35rem){
+    .navbar-container{
+      flex-direction: column;
+      gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 35rem){
+  .nav-list a {
+    font-size: 1.6rem;
+  }
+}
