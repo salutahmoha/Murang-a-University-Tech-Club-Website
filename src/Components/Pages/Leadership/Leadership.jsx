@@ -248,7 +248,7 @@ function Leadership() {
             </h6>
           </div>
         </div>
-      </div>   
+      </div>
     </section>
   );
 }

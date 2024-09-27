@@ -1,18 +1,17 @@
-
-.leadership{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    flex-wrap: wrap;
-    margin-top: 4rem;
+.leadership {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 4rem;
 }
-.leaadership-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 4rem;
+.leaadership-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
 }
 .leader-info {
   width: 25rem;
@@ -30,8 +29,8 @@
 .leader-details {
   padding: 1rem 0.5rem 0.2rem 1rem;
 }
-.leader-details h4{
-   color: var(--color-primary);
+.leader-details h4 {
+  color: var(--color-primary);
 }
 .leader-details h5 {
   padding: 0.5rem 0;
@@ -40,36 +39,36 @@
 }
 
 .leader-socialmedia-handles {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.5rem 2rem 0.5rem 1rem;
-    font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2rem 0.5rem 1rem;
+  font-size: 2rem;
 }
-.leader-socialmedia-handles h6{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    font-size: 1.7rem;
-    color: var(--color-blue);
-}
-
-.leader-socialmedia-handles h6 svg{
-    cursor: pointer;
-    transition: all .3s ease;
-}
-.leader-socialmedia-handles h6 svg:hover{
-    transform: scale(1.1);
+.leader-socialmedia-handles h6 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.7rem;
+  color: var(--color-blue);
 }
 
-@media screen and (max-width: 33.75rem){
-    .leader-info {
-        width: 40rem;
-    }
+.leader-socialmedia-handles h6 svg {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.leader-socialmedia-handles h6 svg:hover {
+  transform: scale(1.1);
 }
 
-@media screen and (max-width: 26.25rem){
-    .leader-info {
-        width: 35rem;
-    }
+@media screen and (max-width: 33.75rem) {
+  .leader-info {
+    width: 40rem;
+  }
+}
+
+@media screen and (max-width: 26.25rem) {
+  .leader-info {
+    width: 35rem;
+  }
 }

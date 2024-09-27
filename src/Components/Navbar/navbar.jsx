@@ -16,10 +16,10 @@ function navbar() {
               <a href="/leadership">Leadership</a>
             </li>
             <li className="nav-list">
-              <a href="#">Tracks</a>
+              <a href="/tracks">Tracks</a>
             </li>
             <li className="nav-list">
-              <a href="#">Events</a>
+              <a href="/events">Events</a>
             </li>
           </ul>
         </div>
