@@ -1,4 +1,4 @@
-/* .track-registration-form {
+.track-registration-form {
   width: 60%;
   border: 1px solid var(--color-black);
   margin: 15rem auto 0 auto;
@@ -7,37 +7,37 @@
   border-radius: 1rem;
 }
 
-.form-details{
-    display: flex;
-    align-items: center;
-    padding-bottom: 1.5rem;
+.form-details {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1.5rem;
 }
 
-.form-details label{
-    font-size: 1.7rem;
-    font-size: 600;
-    flex-basis: 30%;
-    text-align: left;
+.form-details label {
+  font-size: 1.7rem;
+  font-size: 600;
+  flex-basis: 30%;
+  text-align: left;
 }
 
 .form-details input,
-.form-details select{
-    flex-basis: 70%;
-    width: 60%;
-    height: 2.7rem;
+.form-details select {
+  flex-basis: 70%;
+  width: 60%;
+  height: 2.7rem;
 }
 
-button{
-    padding: .6rem 2rem;
-    font-size: 2rem;
-    background: var(--color-primary);
-    border: none;
-    border-radius: .5rem;
-    color: var(--color-white);
-    cursor: pointer;
+button {
+  padding: 0.6rem 2rem;
+  font-size: 2rem;
+  background: var(--color-primary);
+  border: none;
+  border-radius: 0.5rem;
+  color: var(--color-white);
+  cursor: pointer;
 }
 
-button:hover{
+/* button:hover{
     background: transparent;
     color: var(--color-black);
     border: 1px solid currentColor;
