@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -15,6 +16,8 @@ html {
   --color-white: #fff;
   --color-blue: #4f4ff8;
   --color-background: #aae8cb;
+  --footer-color: #bab6b6;
+  --color-black1: #000;
 }
 
 body {

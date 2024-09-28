@@ -3,6 +3,8 @@ import "./Home.css";
 import Carousel from "react-elastic-carousel";
 import testimonials from "./data";
 
+import MutcFooter from "../../footer/footer";
+
 import about from "../../../Assets/hero-1.jpeg";
 
 function Home() {
@@ -83,6 +85,7 @@ function Home() {
           ))}
         </Carousel>
       </div>
+      <MutcFooter />
     </section>
   );
 }
