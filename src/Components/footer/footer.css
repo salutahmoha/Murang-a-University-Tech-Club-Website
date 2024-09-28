@@ -1,4 +1,4 @@
-/* #footer{
+#footer{
     text-align: center;
 }
 .footer-container {
@@ -61,4 +61,4 @@
 .copyright span{
     text-transform: uppercase;
     color: var(--footer-color);
-} */
+}
