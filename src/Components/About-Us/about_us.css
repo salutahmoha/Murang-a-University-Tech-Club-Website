@@ -1,0 +1,99 @@
+/* about-section */
+#about {
+  margin-top: 30rem;
+  width: 100%;
+}
+
+#about .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container-about h2 {
+  text-align: center;
+  font-size: 4rem;
+  padding-bottom: 3rem;
+}
+.about-img {
+  width: 45%;
+  height: 35rem;
+  position: relative;
+}
+
+.about-img img {
+  width: 100%;
+  height: 35rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  animation: fade 12s infinite;
+}
+
+.about-img img:nth-child(2) {
+  animation-delay: 4s;
+}
+
+.about-img img:nth-child(3) {
+  animation-delay: 8s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  33.33% {
+    opacity: 1;
+  }
+  66.66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.about-text {
+  width: 45%;
+  text-align: justify;
+}
+
+.about-text p,
+h4 {
+  width: 100%;
+}
+
+@media screen and (max-width: 56.25rem) {
+  .about-img {
+    width: 45%;
+    height: 45rem;
+  }
+  .about-img img {
+    width: 100%;
+    height: 45rem;
+  }
+}
+
+@media screen and (max-width: 47.5rem) {
+  #about .row {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .about-img {
+    width: 90%;
+    height: 45rem;
+  }
+  .about-img img {
+    width: 100%;
+    height: 45rem;
+  }
+  .about-text {
+    width: 90%;
+  }
+
+  .about-text p,
+  h4 {
+    width: 100%;
+  }
+}
+/* End of About Stylings */

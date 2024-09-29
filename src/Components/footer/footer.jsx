@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -32,22 +34,32 @@ function MutcFooter() {
         <div className="footer-navlist">
           <ul className="footer-lists">
             <li className="footer-list" activeClassName="active">
-              <a href="/">Home</a>
+              <Link exact to="/" activeClassName="active-footer-link">
+                Home
+              </Link>
             </li>
             <li className="footer-list">
-              <a href="/leadership">Leadership</a>
+              <Link exact to="leadership" activeClassName="active-footer-link">
+                Leadership
+              </Link>
             </li>
             <li className="footer-list">
-              <a href="/tracks">Tracks</a>
+              <Link to="tracks" activeClassName="active-footer-link">
+                Tracks
+              </Link>
             </li>
             <li className="footer-list">
-              <a href="/events">Events</a>
+              <Link to="events" activeClassName="active-footer-link">
+                Events
+              </Link>
             </li>
           </ul>
         </div>
 
         <div className="copyright">
-          <p>Copyright &copy; 2024: Designed by <span>Salad</span></p>
+          <p>
+            Copyright &copy; 2024: Designed by <span>Salad</span>
+          </p>
         </div>
       </div>
     </div>

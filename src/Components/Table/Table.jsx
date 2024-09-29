@@ -1,5 +1,6 @@
 import React from "react";
 import { styled } from "@mui/material/styles";
+import "./Table.css";
 
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
@@ -13,9 +14,10 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
     backgroundColor: theme.palette.common.black,
     color: theme.palette.common.white,
+    fontSize: 16,
   },
   [`&.${tableCellClasses.body}`]: {
-    fontSize: 14,
+    fontSize: 15,
   },
 }));
 
@@ -86,7 +88,7 @@ const rows = [
 
 function CustomTable() {
   return (
-    <TableContainer component={Paper}>
+    <TableContainer component={Paper} className="table">
       <Table sx={{ minWidth: 700 }} aria-label="customized table">
         <TableHead>
           <TableRow>

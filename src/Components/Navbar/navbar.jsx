@@ -1,25 +1,29 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./navbar.css";
+import logo from "../../Assets/logo.png";
 function navbar() {
   return (
     <section id="navbar">
       <div className="navbar-container">
         <div className="logo">
-          <h4>MUTC</h4>
+          <img src={logo} alt="" />
         </div>
         <div className="nav-items">
           <ul className="nav-lists">
-            <li className="nav-list" activeClassName="active">
-              <a href="/">Home</a>
+            <li className="nav-list">
+              <Link to="/" activeClassName="active">
+                Home
+              </Link>
             </li>
             <li className="nav-list">
-              <a href="/leadership">Leadership</a>
+              <Link to="/leadership">Leadership</Link>
             </li>
             <li className="nav-list">
-              <a href="/tracks">Tracks</a>
+              <Link to="/tracks">Tracks</Link>
             </li>
             <li className="nav-list">
-              <a href="/events">Events</a>
+              <Link to="/events">Events</Link>
             </li>
           </ul>
         </div>

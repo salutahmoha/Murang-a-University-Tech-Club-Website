@@ -3,10 +3,10 @@ import "./App.css";
 import Navbar from "./Components/Navbar/navbar";
 import Carousel from "react-elastic-carousel";
 
-import Home from "./Components/Pages/Home/Home";
-import Leadership from "./Components/Pages/Leadership/Leadership";
-import Tracks from "./Components/Pages/Tracks/Tracks";
-import Events from "./Components/Pages/Events/Events";
+import Home from "./Pages/Home/Home";
+import Leadership from "./Pages/Leadership/Leadership";
+import Tracks from "./Pages/Tracks/Tracks";
+import Events from "./Pages/Events/Events";
 
 function App() {
   return (

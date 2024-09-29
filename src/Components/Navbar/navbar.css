@@ -1,3 +1,8 @@
+#navbar {
+  border: 1px solid var(--color-black);
+  background: var(--color-tertiary);
+}
+
 .navbar-container {
   display: flex;
   align-items: center;
@@ -17,10 +22,7 @@
   font-size: 2rem;
   text-transform: uppercase;
   transition: all ease 0.5s;
-}
-
-.nav-list a:hover {
-  color: var(--color-primary);
+  font-size: 1.8rem;
 }
 
 @media screen and (max-width: 35rem) {

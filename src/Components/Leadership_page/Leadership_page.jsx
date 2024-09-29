@@ -1,20 +1,20 @@
 import React from "react";
 import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
-import "./Leadership.css";
+import "./Leadership_page.css";
 
-import leader1 from "../../../Assets/leader1.jpeg";
-import leader2 from "../../../Assets/leader2.jpeg";
-import leader3 from "../../../Assets/leader3.jpeg";
-import leader4 from "../../../Assets/leader4.jpeg";
-import leader5 from "../../../Assets/leader5.jpeg";
-import leader6 from "../../../Assets/leaderw6.jpeg";
-import leader7 from "../../../Assets/leaderW7.jpeg";
-import leader8 from "../../../Assets/leader8.jpeg";
-import leader9 from "../../../Assets/leaderW9.jpeg";
-import leader10 from "../../../Assets/leader10.jpeg";
-import leader11 from "../../../Assets/leaderW11.jpeg";
+import leader1 from "../../Assets/leader1.jpeg";
+import leader2 from "../../Assets/leader2.jpeg";
+import leader3 from "../../Assets/leader3.jpeg";
+import leader4 from "../../Assets/leader4.jpeg";
+import leader5 from "../../Assets/leader5.jpeg";
+import leader6 from "../../Assets/leaderw6.jpeg";
+import leader7 from "../../Assets/leaderW7.jpeg";
+import leader8 from "../../Assets/leader8.jpeg";
+import leader9 from "../../Assets/leaderW9.jpeg";
+import leader10 from "../../Assets/leader10.jpeg";
+import leader11 from "../../Assets/leaderW11.jpeg";
 
-function Leadership() {
+function Leadership_page() {
   return (
     <section className="leadership" id="leadership">
       <div className="leaadership-container">
@@ -253,4 +253,4 @@ function Leadership() {
   );
 }
 
-export default Leadership;
+export default Leadership_page;

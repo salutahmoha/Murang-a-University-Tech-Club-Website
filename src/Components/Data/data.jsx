@@ -1,6 +1,6 @@
-import lucy from "../../../Assets/test3.jpeg";
-import test1 from "../../../Assets/test1.jpeg";
-import test2 from "../../../Assets/test2.jpeg";
+import lucy from "../../Assets/test3.jpeg";
+import test1 from "../../Assets/test1.jpeg";
+import test2 from "../../Assets/test2.jpeg";
 
 const testimonials = [
   {
