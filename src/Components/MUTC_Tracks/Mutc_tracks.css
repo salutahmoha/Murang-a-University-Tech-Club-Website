@@ -1,5 +1,6 @@
 #tracks {
-  margin: 4rem;
+  padding: 4rem 0;
+  background: var(--tracks-background);
 }
 .tracks-container {
   display: flex;

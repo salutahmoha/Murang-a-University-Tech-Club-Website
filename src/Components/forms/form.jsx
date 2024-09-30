@@ -5,12 +5,12 @@ function RegistrationForm() {
   return (
     <div id="forms-container">
       <div className="track-registration-form">
-        <form action="">
+        <form action="" id="form">
           <div className="form-details">
             <label htmlFor="fullname" className="fullname">
               Full Name
             </label>
-            <input type="text" id="fullname" />
+            <input type="text" id="fullname" placeholder="Enter your fullname"/>
             <br />
           </div>
 
@@ -18,21 +18,21 @@ function RegistrationForm() {
             <label htmlFor="emailAddress" className="emailAddress">
               Email Address
             </label>
-            <input type="email" id="emailAddress" />
+            <input type="email" id="emailAddress" placeholder="Enter your email"/>
             <br />
           </div>
           <div className="form-details">
             <label htmlFor="currentCourse" className="currentCourse">
               Current Course
             </label>
-            <input type="text" id="currentCourse" />
+            <input type="text" id="currentCourse" placeholder="Enter your current course"/>
             <br />
           </div>
           <div className="form-details">
             <label htmlFor="yearOfStudy" className="yearOfStudy">
               Year of Study
             </label>
-            <input type="number" id="yearOfStudy" />
+            <input type="number" id="yearOfStudy" placeholder="Enter your year of Study"/>
             <br />
           </div>
           <div className="form-details">
@@ -40,6 +40,7 @@ function RegistrationForm() {
               Desired Tracks
             </label>
             <select name="desiredTracks" id="desiredTracks">
+             <option value="desiredTrack">Choose option</option>
               <option value="desiredTrack">Cyber Security</option>
               <option value="desiredTrack">UI/UX design</option>
               <option value="desiredTrack">Web development</option>
