@@ -1,4 +1,4 @@
-#navbar {
+#navbar{
   border: 1px solid var(--color-black);
   background: var(--color-tertiary);
 }
@@ -22,7 +22,11 @@
   font-size: 2rem;
   text-transform: uppercase;
   transition: all ease 0.5s;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
+}
+
+.nav-list a:hover {
+  color: var(--color-primary);
 }
 
 @media screen and (max-width: 35rem) {
