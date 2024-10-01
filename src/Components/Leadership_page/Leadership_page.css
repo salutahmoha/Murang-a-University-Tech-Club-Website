@@ -24,6 +24,7 @@
 .leader-info img {
   width: 100%;
   height: 17rem;
+  object-fit: cover;
 }
 
 .leader-details {

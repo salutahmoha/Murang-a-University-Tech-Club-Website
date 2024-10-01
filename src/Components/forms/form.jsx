@@ -10,7 +10,7 @@ function RegistrationForm() {
             <label htmlFor="fullname" className="fullname">
               Full Name
             </label>
-            <input type="text" id="fullname" placeholder="Enter your fullname"/>
+            <input type="text" id="fullname" placeholder="Enter your fullname" required/>
             <br />
           </div>
 
@@ -18,28 +18,28 @@ function RegistrationForm() {
             <label htmlFor="emailAddress" className="emailAddress">
               Email Address
             </label>
-            <input type="email" id="emailAddress" placeholder="Enter your email"/>
+            <input type="email" id="emailAddress" placeholder="Enter your email" required/>
             <br />
           </div>
           <div className="form-details">
             <label htmlFor="currentCourse" className="currentCourse">
               Current Course
             </label>
-            <input type="text" id="currentCourse" placeholder="Enter your current course"/>
+            <input type="text" id="currentCourse" placeholder="Enter your current course" required/>
             <br />
           </div>
           <div className="form-details">
             <label htmlFor="yearOfStudy" className="yearOfStudy">
               Year of Study
             </label>
-            <input type="number" id="yearOfStudy" placeholder="Enter your year of Study"/>
+            <input type="number" id="yearOfStudy" placeholder="Enter your year of Study" required/>
             <br />
           </div>
           <div className="form-details">
             <label htmlFor="desiredTracks" className="desiredTracks">
               Desired Tracks
             </label>
-            <select name="desiredTracks" id="desiredTracks">
+            <select name="desiredTracks" id="desiredTracks" required>
              <option value="desiredTrack">Choose option</option>
               <option value="desiredTrack">Cyber Security</option>
               <option value="desiredTrack">UI/UX design</option>
