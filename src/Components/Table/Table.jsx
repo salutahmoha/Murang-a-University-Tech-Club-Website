@@ -31,8 +31,8 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   },
 }));
 
-function createData(id, time, weekDays, events, venue, instructor) {
-  return { id, time, weekDays, events, venue, instructor };
+function createData(serialNo, time, weekDays, events, venue, instructor) {
+  return { serialNo, time, weekDays, events, venue, instructor };
 }
 
 const rows = [
@@ -92,7 +92,7 @@ function CustomTable() {
       <Table sx={{ minWidth: 700 }} aria-label="customized table">
         <TableHead>
           <TableRow>
-            <StyledTableCell>Id</StyledTableCell>
+            <StyledTableCell>Serial No</StyledTableCell>
             <StyledTableCell>Time</StyledTableCell>
             <StyledTableCell align="left">Days of the Week</StyledTableCell>
             <StyledTableCell align="left">Event(s)</StyledTableCell>
@@ -104,9 +104,9 @@ function CustomTable() {
         </TableHead>
         <TableBody>
           {rows.map((row) => (
-            <StyledTableRow key={row.id}>
+            <StyledTableRow key={row.serialNo}>
               <StyledTableCell component="th" scope="column">
-                {row.id}
+                {row.serialNo}
               </StyledTableCell>
               <StyledTableCell align="left">{row.time}</StyledTableCell>
               <StyledTableCell align="left">{row.weekDays}</StyledTableCell>

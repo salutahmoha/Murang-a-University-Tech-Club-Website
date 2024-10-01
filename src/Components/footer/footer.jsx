@@ -44,12 +44,12 @@ function MutcFooter() {
               </Link>
             </li>
             <li className="footer-list">
-              <Link to="tracks" activeClassName="active-footer-link">
+              <Link to="/tracks" activeClassName="active-footer-link">
                 Tracks
               </Link>
             </li>
             <li className="footer-list">
-              <Link to="events" activeClassName="active-footer-link">
+              <Link to="/events" activeClassName="active-footer-link">
                 Events
               </Link>
             </li>
